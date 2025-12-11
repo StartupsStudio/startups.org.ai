@@ -1,0 +1,45 @@
+---
+title: primitives.org.ai
+description: Core AI primitives including functions, providers, and database tools
+---
+
+# primitives.org.ai
+
+Core AI primitives for building intelligent applications.
+
+## Installation
+
+```bash
+pnpm add primitives.org.ai
+```
+
+## Overview
+
+`primitives.org.ai` provides foundational AI building blocks:
+
+- **AI Functions**: Type-safe AI function definitions
+- **AI Providers**: Unified interface for multiple AI providers
+- **AI Database**: Semantic storage and retrieval
+- **Integrations**: Pre-built integrations with popular services
+
+## Packages
+
+This is a collection of packages including:
+
+- `ai-functions` - Core AI function primitives
+- `ai-providers` - Provider abstractions (OpenAI, Anthropic, etc.)
+- `ai-database` - Semantic data storage
+
+## Usage
+
+```typescript
+import { createAIFunction } from 'ai-functions'
+
+const summarize = createAIFunction({
+  name: 'summarize',
+  description: 'Summarize the given text',
+  parameters: {
+    text: { type: 'string', description: 'Text to summarize' }
+  }
+})
+```

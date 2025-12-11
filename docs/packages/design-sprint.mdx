@@ -1,0 +1,44 @@
+---
+title: design-sprint
+description: AI-powered Design Sprint framework based on Jake Knapp's methodology
+---
+
+# design-sprint
+
+AI-powered Design Sprint framework based on Jake Knapp's methodology.
+
+## Installation
+
+```bash
+pnpm add design-sprint
+```
+
+## Overview
+
+Run a 5-day Design Sprint with AI assistance:
+
+- **Day 1: Map** - Understand the problem and set a target
+- **Day 2: Sketch** - Generate solutions individually
+- **Day 3: Decide** - Choose the best approach
+- **Day 4: Prototype** - Build a testable prototype
+- **Day 5: Test** - Validate with real users
+
+## Usage
+
+```typescript
+import { DesignSprint } from 'design-sprint'
+
+const sprint = new DesignSprint({
+  challenge: 'Improve user onboarding',
+  team: ['product', 'design', 'engineering']
+})
+
+await sprint.runDay('map')
+```
+
+## Features
+
+- AI-facilitated sprint activities
+- Automated documentation
+- User testing coordination
+- Insight synthesis

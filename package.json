@@ -1,0 +1,25 @@
+{
+  "name": "startups-org-ai-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "build:packages": "pnpm -r --filter './packages/*' build",
+    "build:apps": "pnpm -r --filter './apps/*' build",
+    "dev": "pnpm -r --parallel dev",
+    "dev:apps": "pnpm -r --parallel --filter './apps/*' dev",
+    "dev:web": "pnpm --filter startups-org-ai-app dev",
+    "dev:games": "pnpm --filter startup-games-app dev",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@9.14.4",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

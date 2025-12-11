@@ -1,0 +1,30 @@
+{
+  "title": "Packages",
+  "pages": [
+    "index",
+    "---Core---",
+    "startups-org-ai",
+    "primitives-org-ai",
+    "mdx-org-ai",
+    "business-org-ai",
+    "---Builders---",
+    "startup-builder",
+    "sales-builder",
+    "service-builder",
+    "builder-domains",
+    "---Frameworks---",
+    "design-sprint",
+    "lean-canvas",
+    "storybrand",
+    "jobs-to-be-done",
+    "ideal-customer-profile",
+    "foundation-sprint",
+    "experimentation-machine",
+    "---Additional---",
+    "landing-page",
+    "startup-names",
+    "product-names",
+    "startup-school",
+    "startup-games"
+  ]
+}

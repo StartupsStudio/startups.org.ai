@@ -1,0 +1,43 @@
+---
+title: startup-builder
+description: Build startups with AI-powered workflows
+---
+
+# startup-builder
+
+Build startups with AI-powered workflows.
+
+## Installation
+
+```bash
+pnpm add startup-builder
+```
+
+## Overview
+
+`startup-builder` provides AI-powered workflows for building and validating startup ideas:
+
+- Hypothesis generation and testing
+- Market validation workflows
+- Competitor analysis
+- Business model iteration
+
+## Usage
+
+```typescript
+import { StartupBuilder } from 'startup-builder'
+
+const builder = new StartupBuilder({
+  idea: 'AI-powered customer support',
+  targetMarket: 'SaaS companies'
+})
+
+const validation = await builder.validate()
+```
+
+## Features
+
+- **Idea Validation**: AI-assisted validation of startup hypotheses
+- **Market Research**: Automated market size and competitor analysis
+- **Business Model Canvas**: Generate and iterate on business models
+- **Experiment Design**: Create and track validation experiments

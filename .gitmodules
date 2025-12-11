@@ -1,0 +1,27 @@
+[submodule "packages/startup-builder"]
+	path = packages/startup-builder
+	url = https://github.com/StartupsStudio/startup-builder.git
+[submodule "packages/sales-builder"]
+	path = packages/sales-builder
+	url = https://github.com/StartupsStudio/sales-builder.git
+[submodule "packages/service-builder"]
+	path = packages/service-builder
+	url = https://github.com/StartupsStudio/service-builder.git
+[submodule "packages/builder.domains"]
+	path = packages/builder.domains
+	url = https://github.com/StartupsStudio/builder.domains.git
+[submodule "packages/startup.games"]
+	path = packages/startup.games
+	url = https://github.com/StartupsStudio/startup.games.git
+[submodule "packages/startups.org.ai"]
+	path = packages/startups.org.ai
+	url = https://github.com/dot-org-ai/startups.org.ai.git
+[submodule "packages/primitives.org.ai"]
+	path = packages/primitives.org.ai
+	url = https://github.com/dot-org-ai/primitives.org.ai.git
+[submodule "packages/mdx.org.ai"]
+	path = packages/mdx.org.ai
+	url = https://github.com/dot-org-ai/mdx.org.ai.git
+[submodule "packages/business.org.ai"]
+	path = packages/business.org.ai
+	url = https://github.com/dot-org-ai/business.org.ai.git

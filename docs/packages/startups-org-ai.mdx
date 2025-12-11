@@ -1,0 +1,47 @@
+---
+title: startups.org.ai
+description: Type system and workflow for programmatic startup generation
+---
+
+# startups.org.ai
+
+Type system and workflow for programmatic startup generation.
+
+## Installation
+
+```bash
+pnpm add startups.org.ai
+```
+
+## Overview
+
+`startups.org.ai` provides a comprehensive type system for modeling startups, including:
+
+- Startup definitions and metadata
+- Business model components
+- Validation workflows
+- AI-powered enrichment
+
+## Usage
+
+```typescript
+import { Startup, createStartup } from 'startups.org.ai'
+
+const startup = createStartup({
+  name: 'My Startup',
+  description: 'Building the future',
+  problem: 'Current solutions are inadequate',
+  solution: 'An innovative approach'
+})
+```
+
+## Features
+
+- **Type-safe Startup Models**: Full TypeScript support for startup data
+- **Validation Workflows**: Built-in validation for startup hypotheses
+- **AI Integration**: Seamless integration with AI functions for enrichment
+- **Zod Schemas**: Runtime validation with Zod
+
+## API Reference
+
+See the full API documentation for detailed type definitions and function signatures.

@@ -1,0 +1,47 @@
+---
+title: startup.games
+description: Gamification platform for founders, builders, and investors
+---
+
+# startup.games
+
+Gamification platform for founders, builders, and investors.
+
+## Installation
+
+```bash
+pnpm add startup.games
+```
+
+## Overview
+
+`startup.games` provides gamification mechanics for startup ecosystems:
+
+- **Competitions**: Create and manage startup competitions
+- **Leaderboards**: Track and rank founders, startups, and investors
+- **Achievements**: Define and award achievements for milestones
+- **Quests**: Guide users through startup-building journeys
+
+## Usage
+
+```typescript
+import { Competition, Leaderboard } from 'startup.games'
+
+const competition = new Competition({
+  name: 'Pitch Day 2024',
+  startDate: new Date('2024-03-01'),
+  endDate: new Date('2024-03-15')
+})
+
+const leaderboard = new Leaderboard({
+  metric: 'revenue',
+  period: 'monthly'
+})
+```
+
+## Features
+
+- Real-time leaderboard updates
+- Custom achievement definitions
+- Competition management
+- Quest/journey tracking

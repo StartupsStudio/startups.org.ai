@@ -1,0 +1,56 @@
+{
+  "name": "landing-page",
+  "version": "0.1.0",
+  "description": "AI-powered landing page generator with conversion optimization frameworks",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "test": "vitest",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ai-functions": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "keywords": [
+    "landing-page",
+    "conversion-optimization",
+    "cro",
+    "ab-testing",
+    "copywriting",
+    "headlines",
+    "cta",
+    "social-proof",
+    "ai",
+    "framework"
+  ],
+  "author": "Startups.Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StartupsStudio/landing-page.git"
+  },
+  "homepage": "https://landing-page.do",
+  "bugs": {
+    "url": "https://github.com/StartupsStudio/landing-page/issues"
+  }
+}

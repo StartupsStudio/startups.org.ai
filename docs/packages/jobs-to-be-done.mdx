@@ -1,0 +1,35 @@
+---
+title: jobs-to-be-done
+description: Jobs-to-be-Done framework for understanding customer needs
+---
+
+# jobs-to-be-done
+
+Jobs-to-be-Done framework for understanding customer needs.
+
+## Installation
+
+```bash
+pnpm add jobs-to-be-done
+```
+
+## Overview
+
+Understand what jobs your customers are trying to accomplish:
+
+- Job identification
+- Outcome-driven innovation
+- Job mapping
+- Opportunity scoring
+
+## Usage
+
+```typescript
+import { JTBD } from 'jobs-to-be-done'
+
+const job = new JTBD({
+  mainJob: 'Validate my startup idea quickly',
+  relatedJobs: ['Understand my market', 'Find product-market fit'],
+  emotionalJob: 'Feel confident about my decisions'
+})
+```
