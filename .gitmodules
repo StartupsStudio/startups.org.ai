@@ -25,3 +25,6 @@
 [submodule "packages/business.org.ai"]
 	path = packages/business.org.ai
 	url = https://github.com/dot-org-ai/business.org.ai.git
+[submodule "primitives"]
+	path = primitives
+	url = https://github.com/dot-org-ai/primitives.org.ai
