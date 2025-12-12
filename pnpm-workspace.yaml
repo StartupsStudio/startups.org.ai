@@ -2,5 +2,8 @@ packages:
   # Apps
   - 'apps/*'
 
-  # Core packages
-  - 'packages/*'
+  # Core packages (excluding submodules which have their own workspaces)
+  - 'packages/design-sprint'
+
+  # Primitives (submodule)
+  - 'primitives/packages/*'
