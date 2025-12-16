@@ -10,6 +10,9 @@
 
 import { AI } from 'ai-functions'
 
+// Export Zod schemas
+export * from './schema'
+
 // =============================================================================
 // TYPES - Core Lean Canvas Structure
 // =============================================================================

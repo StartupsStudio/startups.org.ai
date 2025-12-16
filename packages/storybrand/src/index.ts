@@ -886,7 +886,7 @@ export async function generateStoryBrand(context: string): Promise<StoryBrand> {
     - Include both direct and transitional CTAs
     - Paint clear pictures of both success AND failure stakes
     - Focus on transformation, not just features`
-  )
+  ) as Promise<StoryBrand>
 }
 
 /**
@@ -914,7 +914,7 @@ export async function generateOneLiner(context: string): Promise<OneLiner> {
 
     The complete one-liner should be 3-4 sentences that flow naturally.
     Also create a short version for business cards/social bios.`
-  )
+  ) as Promise<OneLiner>
 }
 
 /**
@@ -939,7 +939,7 @@ export async function generateBrandScript(context: string): Promise<BrandScript>
     - The one-liner
 
     This will be used to maintain consistent messaging across all marketing channels.`
-  )
+  ) as Promise<BrandScript>
 }
 
 /**
@@ -967,7 +967,7 @@ export async function generateWebsiteWireframe(context: string): Promise<Website
     - Include both direct and transitional CTAs
 
     Every section should support the customer's journey from problem to solution.`
-  )
+  ) as Promise<WebsiteWireframe>
 }
 
 /**
@@ -999,7 +999,7 @@ export async function generateEmailStrategy(options: {
 
     Each email should move the customer through the StoryBrand journey.
     Use story-based copy that positions customer as hero.`
-  )
+  ) as Promise<EmailStrategy>
 }
 
 /**
@@ -1026,7 +1026,7 @@ export async function generateSalesFunnel(context: string): Promise<SalesFunnel>
 
     Each stage should move the customer through the hero's journey,
     with the brand consistently positioned as the guide.`
-  )
+  ) as Promise<SalesFunnel>
 }
 
 /**
@@ -1120,3 +1120,6 @@ export { storyBrandAI }
 
 // Re-export types for convenience
 export type { StoryBrand as StoryBrandFramework }
+
+// Export Zod schemas
+export * from './schema'

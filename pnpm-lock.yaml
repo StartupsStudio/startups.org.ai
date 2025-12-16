@@ -245,6 +245,9 @@ importers:
       react:
         specifier: '>=18.0.0'
         version: 18.3.1
+      zod:
+        specifier: ^3.22.0
+        version: 3.25.76
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -476,6 +479,9 @@ importers:
       ai-functions:
         specifier: workspace:*
         version: link:../../primitives/packages/ai-functions
+      zod:
+        specifier: ^3.22.0
+        version: 3.25.76
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -790,6 +796,675 @@ importers:
         specifier: ^0.1.0
         version: 0.1.4
 
+  primitives/tools/integrations/aws:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/beads:
+    dependencies:
+      better-sqlite3:
+        specifier: ^11.0.0
+        version: 11.10.0
+      drizzle-orm:
+        specifier: ^0.36.0
+        version: 0.36.4(@cloudflare/workers-types@4.20251212.0)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/react@18.3.27)(better-sqlite3@11.10.0)(react@18.3.1)
+    devDependencies:
+      '@types/better-sqlite3':
+        specifier: ^7.6.0
+        version: 7.6.13
+      tsup:
+        specifier: ^8.0.0
+        version: 8.5.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/cal:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/cloudinary:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/github:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/google-workspace:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/hubspot:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/jitsi:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/linear:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/mailchimp:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/mixpanel:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/notion:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/office-365:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/resend:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/sendgrid:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/shopify:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/slack:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/stripe:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/todoist:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/twilio:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/typeform:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/xlsx:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/zendesk:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/integrations/zoom:
+    dependencies:
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/analytics:
+    dependencies:
+      '@tools.org.ai/mixpanel':
+        specifier: workspace:*
+        version: link:../../integrations/mixpanel
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/calendar:
+    dependencies:
+      '@tools.org.ai/cal':
+        specifier: workspace:*
+        version: link:../../integrations/cal
+      '@tools.org.ai/google-workspace':
+        specifier: workspace:*
+        version: link:../../integrations/google-workspace
+      '@tools.org.ai/office-365':
+        specifier: workspace:*
+        version: link:../../integrations/office-365
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/crm:
+    dependencies:
+      '@tools.org.ai/hubspot':
+        specifier: workspace:*
+        version: link:../../integrations/hubspot
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/documents:
+    dependencies:
+      '@tools.org.ai/google-workspace':
+        specifier: workspace:*
+        version: link:../../integrations/google-workspace
+      '@tools.org.ai/notion':
+        specifier: workspace:*
+        version: link:../../integrations/notion
+      '@tools.org.ai/office-365':
+        specifier: workspace:*
+        version: link:../../integrations/office-365
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/ecommerce:
+    dependencies:
+      '@tools.org.ai/shopify':
+        specifier: workspace:*
+        version: link:../../integrations/shopify
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/email:
+    dependencies:
+      '@tools.org.ai/google-workspace':
+        specifier: workspace:*
+        version: link:../../integrations/google-workspace
+      '@tools.org.ai/office-365':
+        specifier: workspace:*
+        version: link:../../integrations/office-365
+      '@tools.org.ai/resend':
+        specifier: workspace:*
+        version: link:../../integrations/resend
+      '@tools.org.ai/sendgrid':
+        specifier: workspace:*
+        version: link:../../integrations/sendgrid
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/forms:
+    dependencies:
+      '@tools.org.ai/typeform':
+        specifier: workspace:*
+        version: link:../../integrations/typeform
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/marketing:
+    dependencies:
+      '@tools.org.ai/mailchimp':
+        specifier: workspace:*
+        version: link:../../integrations/mailchimp
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/media:
+    dependencies:
+      '@tools.org.ai/cloudinary':
+        specifier: workspace:*
+        version: link:../../integrations/cloudinary
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/meetings:
+    dependencies:
+      '@tools.org.ai/google-workspace':
+        specifier: workspace:*
+        version: link:../../integrations/google-workspace
+      '@tools.org.ai/jitsi':
+        specifier: workspace:*
+        version: link:../../integrations/jitsi
+      '@tools.org.ai/office-365':
+        specifier: workspace:*
+        version: link:../../integrations/office-365
+      '@tools.org.ai/zoom':
+        specifier: workspace:*
+        version: link:../../integrations/zoom
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/messaging:
+    dependencies:
+      '@tools.org.ai/slack':
+        specifier: workspace:*
+        version: link:../../integrations/slack
+      '@tools.org.ai/twilio':
+        specifier: workspace:*
+        version: link:../../integrations/twilio
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/payments:
+    dependencies:
+      '@tools.org.ai/stripe':
+        specifier: workspace:*
+        version: link:../../integrations/stripe
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/projects:
+    dependencies:
+      '@tools.org.ai/github':
+        specifier: workspace:*
+        version: link:../../integrations/github
+      '@tools.org.ai/linear':
+        specifier: workspace:*
+        version: link:../../integrations/linear
+      '@tools.org.ai/notion':
+        specifier: workspace:*
+        version: link:../../integrations/notion
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/repos:
+    dependencies:
+      '@tools.org.ai/github':
+        specifier: workspace:*
+        version: link:../../integrations/github
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/spreadsheet:
+    dependencies:
+      '@tools.org.ai/google-workspace':
+        specifier: workspace:*
+        version: link:../../integrations/google-workspace
+      '@tools.org.ai/office-365':
+        specifier: workspace:*
+        version: link:../../integrations/office-365
+      '@tools.org.ai/xlsx':
+        specifier: workspace:*
+        version: link:../../integrations/xlsx
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/storage:
+    dependencies:
+      '@tools.org.ai/aws':
+        specifier: workspace:*
+        version: link:../../integrations/aws
+      '@tools.org.ai/google-workspace':
+        specifier: workspace:*
+        version: link:../../integrations/google-workspace
+      '@tools.org.ai/office-365':
+        specifier: workspace:*
+        version: link:../../integrations/office-365
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/support:
+    dependencies:
+      '@tools.org.ai/zendesk':
+        specifier: workspace:*
+        version: link:../../integrations/zendesk
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
+  primitives/tools/packages/tasks:
+    dependencies:
+      '@tools.org.ai/github':
+        specifier: workspace:*
+        version: link:../../integrations/github
+      '@tools.org.ai/linear':
+        specifier: workspace:*
+        version: link:../../integrations/linear
+      '@tools.org.ai/notion':
+        specifier: workspace:*
+        version: link:../../integrations/notion
+      '@tools.org.ai/todoist':
+        specifier: workspace:*
+        version: link:../../integrations/todoist
+      digital-tools:
+        specifier: workspace:*
+        version: link:../../../packages/digital-tools
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.0
+        version: 2.1.9(@types/node@24.10.3)
+
 packages:
 
   '@ai-sdk/amazon-bedrock@3.0.70':
@@ -878,7 +1553,6 @@ packages:
   '@beads/bd@0.30.0':
     resolution: {integrity: sha512-zEnCBtq7bk3Xp7I82C2VCM5/GAi82YyrKE7M6l+R11i+HIRw+fH0TpnR51Wwnn/vigRjUoF8uwhHwbfIV4n45A==}
     engines: {node: '>=14.0.0'}
-    cpu: [x64, arm64]
     os: [darwin, linux, win32]
     hasBin: true
 
@@ -2716,6 +3390,9 @@ packages:
   '@tokenizer/token@0.3.0':
     resolution: {integrity: sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==}
 
+  '@types/better-sqlite3@7.6.13':
+    resolution: {integrity: sha512-NMv9ASNARoKksWtsq/SHakpYAYnhBrQgGD8zkLYk/jaK8jUGn08CfEdTRgYhMypUQAfzSP8W6gNLe0q19/t4VA==}
+
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
 
@@ -3374,6 +4051,98 @@ packages:
   dotenv@17.2.3:
     resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
+
+  drizzle-orm@0.36.4:
+    resolution: {integrity: sha512-1OZY3PXD7BR00Gl61UUOFihslDldfH4NFRH2MbP54Yxi0G/PKn4HfO65JYZ7c16DeP3SpM3Aw+VXVG9j6CRSXA==}
+    peerDependencies:
+      '@aws-sdk/client-rds-data': '>=3'
+      '@cloudflare/workers-types': '>=3'
+      '@electric-sql/pglite': '>=0.2.0'
+      '@libsql/client': '>=0.10.0'
+      '@libsql/client-wasm': '>=0.10.0'
+      '@neondatabase/serverless': '>=0.10.0'
+      '@op-engineering/op-sqlite': '>=2'
+      '@opentelemetry/api': ^1.4.1
+      '@planetscale/database': '>=1'
+      '@prisma/client': '*'
+      '@tidbcloud/serverless': '*'
+      '@types/better-sqlite3': '*'
+      '@types/pg': '*'
+      '@types/react': '>=18'
+      '@types/sql.js': '*'
+      '@vercel/postgres': '>=0.8.0'
+      '@xata.io/client': '*'
+      better-sqlite3: '>=7'
+      bun-types: '*'
+      expo-sqlite: '>=14.0.0'
+      knex: '*'
+      kysely: '*'
+      mysql2: '>=2'
+      pg: '>=8'
+      postgres: '>=3'
+      prisma: '*'
+      react: '>=18'
+      sql.js: '>=1'
+      sqlite3: '>=5'
+    peerDependenciesMeta:
+      '@aws-sdk/client-rds-data':
+        optional: true
+      '@cloudflare/workers-types':
+        optional: true
+      '@electric-sql/pglite':
+        optional: true
+      '@libsql/client':
+        optional: true
+      '@libsql/client-wasm':
+        optional: true
+      '@neondatabase/serverless':
+        optional: true
+      '@op-engineering/op-sqlite':
+        optional: true
+      '@opentelemetry/api':
+        optional: true
+      '@planetscale/database':
+        optional: true
+      '@prisma/client':
+        optional: true
+      '@tidbcloud/serverless':
+        optional: true
+      '@types/better-sqlite3':
+        optional: true
+      '@types/pg':
+        optional: true
+      '@types/react':
+        optional: true
+      '@types/sql.js':
+        optional: true
+      '@vercel/postgres':
+        optional: true
+      '@xata.io/client':
+        optional: true
+      better-sqlite3:
+        optional: true
+      bun-types:
+        optional: true
+      expo-sqlite:
+        optional: true
+      knex:
+        optional: true
+      kysely:
+        optional: true
+      mysql2:
+        optional: true
+      pg:
+        optional: true
+      postgres:
+        optional: true
+      prisma:
+        optional: true
+      react:
+        optional: true
+      sql.js:
+        optional: true
+      sqlite3:
+        optional: true
 
   duplexify@4.1.3:
     resolution: {integrity: sha512-M3BmBhwJRZsSx38lZyhE53Csddgzl5R7xGJNk7CVddZD6CcmwMCH8J+7AprIrQKH7TonKxaCjcv27Qmf+sQ+oA==}
@@ -7270,6 +8039,10 @@ snapshots:
 
   '@tokenizer/token@0.3.0': {}
 
+  '@types/better-sqlite3@7.6.13':
+    dependencies:
+      '@types/node': 24.10.3
+
   '@types/chai@5.2.3':
     dependencies:
       '@types/deep-eql': 4.0.2
@@ -7944,6 +8717,15 @@ snapshots:
   dotenv@16.6.1: {}
 
   dotenv@17.2.3: {}
+
+  drizzle-orm@0.36.4(@cloudflare/workers-types@4.20251212.0)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/react@18.3.27)(better-sqlite3@11.10.0)(react@18.3.1):
+    optionalDependencies:
+      '@cloudflare/workers-types': 4.20251212.0
+      '@opentelemetry/api': 1.9.0
+      '@types/better-sqlite3': 7.6.13
+      '@types/react': 18.3.27
+      better-sqlite3: 11.10.0
+      react: 18.3.1
 
   duplexify@4.1.3:
     dependencies:
