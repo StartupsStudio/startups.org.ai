@@ -27,3 +27,7 @@ packages:
 
   # Primitives (submodule)
   - 'primitives/packages/*'
+
+  # Tools (submodule of primitives)
+  - 'primitives/tools/packages/*'
+  - 'primitives/tools/integrations/*'
