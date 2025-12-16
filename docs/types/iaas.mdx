@@ -1,0 +1,171 @@
+---
+title: Infrastructure-as-a-Service (IaaS)
+description: Selling compute, storage, and networking as on-demand cloud infrastructure
+---
+
+# Infrastructure-as-a-Service (IaaS)
+
+Infrastructure-as-a-Service is the foundational layer of cloud computing, providing virtualized computing resources over the internet. IaaS providers manage the physical infrastructure while customers manage everything from the operating system up.
+
+## Overview
+
+IaaS abstracts physical hardware into programmable, scalable resources:
+
+- **Compute**: Virtual machines, containers, serverless functions
+- **Storage**: Block storage, object storage, file systems
+- **Networking**: Virtual networks, load balancers, CDNs, DNS
+- **Security**: Firewalls, identity management, encryption
+
+### Key Characteristics
+
+| Characteristic | Description |
+|----------------|-------------|
+| **Pricing Model** | Pay-per-use (compute hours, GB stored, data transfer) |
+| **Capital Intensity** | Very high - data centers, hardware, power, cooling |
+| **Margins** | 15-30% gross margins typical |
+| **Moat** | Scale economics, geographic coverage, ecosystem |
+| **Sales Motion** | Developer-first, bottom-up, usage-based growth |
+
+## Market Examples
+
+### Hyperscalers
+- **AWS (Amazon Web Services)** - Market leader, broadest service offering
+- **Microsoft Azure** - Enterprise integration, hybrid cloud
+- **Google Cloud Platform** - Data/ML strengths, Kubernetes native
+
+### Specialized Players
+- **DigitalOcean** - Developer-focused simplicity
+- **Vultr** - High-performance compute
+- **Hetzner** - European, price-competitive
+- **OVHcloud** - European data sovereignty
+
+### Edge/Niche
+- **Cloudflare** - Edge compute + CDN
+- **Fly.io** - Edge-native applications
+- **Lambda Labs** - GPU cloud for AI
+
+## Economics
+
+### Unit Economics
+```
+Revenue = Σ (Resource Usage × Price per Unit)
+
+Key Metrics:
+- Revenue per server
+- Data center utilization rate
+- Cost per compute hour
+- Customer acquisition cost (CAC)
+- Net revenue retention (NRR)
+```
+
+### Cost Structure
+- **Capital**: Data center construction, servers, networking equipment
+- **Operating**: Power, cooling, bandwidth, personnel
+- **Maintenance**: Hardware replacement, upgrades
+- **Sales**: Typically low-touch, self-serve dominated
+
+## Lean Canvas: GPU Cloud Provider
+
+<LeanCanvas
+  data={{
+    name: "CloudGPU",
+    tagline: "On-demand GPU infrastructure for AI/ML workloads",
+    problem: {
+      problems: [
+        "GPU hardware is expensive and depreciates quickly",
+        "AI teams wait weeks for internal GPU allocation",
+        "Scaling ML training requires specialized infrastructure expertise"
+      ],
+      existingAlternatives: [
+        "Buy and manage own GPU servers",
+        "AWS/GCP/Azure (expensive, complex)",
+        "Rent from consumer GPU clouds (unreliable)"
+      ]
+    },
+    solution: {
+      solutions: [
+        "Instant GPU provisioning via API/CLI",
+        "Pre-configured ML environments (PyTorch, TensorFlow, JAX)",
+        "Spot pricing at 60% discount for interruptible workloads"
+      ]
+    },
+    keyMetrics: {
+      metrics: [
+        "GPU utilization rate (target: >80%)",
+        "Revenue per GPU hour",
+        "Customer acquisition cost",
+        "Net revenue retention"
+      ]
+    },
+    uniqueValueProposition: {
+      headline: "GPU cloud built for AI teams, not enterprise IT",
+      highLevelConcept: "DigitalOcean for GPUs"
+    },
+    unfairAdvantage: {
+      advantage: "Direct partnerships with NVIDIA for allocation priority"
+    },
+    customerSegments: {
+      segments: [
+        "AI/ML startups (Series A-C)",
+        "Research labs and universities",
+        "Enterprise ML platform teams"
+      ],
+      earlyAdopters: [
+        "AI startups hitting GPU constraints",
+        "ML engineers frustrated with cloud complexity"
+      ]
+    },
+    channels: {
+      channels: [
+        "Developer content marketing (tutorials, benchmarks)",
+        "GitHub integrations and open source",
+        "ML conference sponsorships",
+        "Word of mouth in AI communities"
+      ]
+    },
+    costStructure: {
+      costs: [
+        "GPU hardware acquisition and depreciation",
+        "Data center colocation and power",
+        "Bandwidth and networking",
+        "Engineering team",
+        "Customer support"
+      ]
+    },
+    revenueStreams: {
+      streams: [
+        "On-demand compute (per GPU-hour)",
+        "Reserved instances (discounted commitment)",
+        "Spot instances (variable, interruptible)",
+        "Storage and egress fees",
+        "Managed services tier"
+      ]
+    }
+  }}
+/>
+
+## Building an IaaS Startup
+
+### When IaaS Makes Sense
+- You have access to unique infrastructure (locations, hardware, capacity)
+- You can specialize deeply in a vertical (GPU, edge, compliance)
+- You can offer 10x better developer experience on a subset of use cases
+
+### Challenges
+- **Capital requirements**: Data centers and hardware require significant upfront investment
+- **Hyperscaler competition**: AWS/Azure/GCP have massive scale advantages
+- **Commoditization**: Computing is increasingly commodity; differentiation is hard
+- **Talent**: Requires specialized infrastructure and reliability engineering
+
+### Success Patterns
+1. **Specialize**: Don't compete with AWS on breadth; go deep on one thing
+2. **Developer experience**: Make it 10x simpler for your specific use case
+3. **Pricing innovation**: Usage-based, spot markets, reserved capacity
+4. **Geographic arbitrage**: Serve underserved regions or compliance needs
+5. **Vertical focus**: Build for specific workloads (AI, gaming, streaming)
+
+## Further Reading
+
+- [Cloud Computing Market Analysis](https://www.synergy.research.com)
+- [Data Center Economics](https://www.datacenterknowledge.com)
+- [IaaS Provider Comparison](https://www.gartner.com/reviews/market/infrastructure-as-a-service)

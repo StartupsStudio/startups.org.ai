@@ -9,6 +9,10 @@
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
+    },
+    "./react": {
+      "import": "./dist/LeanCanvas.js",
+      "types": "./dist/LeanCanvas.d.ts"
     }
   },
   "files": [
@@ -16,8 +20,9 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm --dts",
-    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "build": "tsup src/index.ts --format esm --dts --external ai-functions && tsup src/LeanCanvas.tsx --format esm --dts",
+    "build:react": "tsup src/LeanCanvas.tsx --format esm --dts",
+    "dev": "tsup src/index.ts src/LeanCanvas.tsx --format esm --dts --watch --external ai-functions",
     "test": "vitest",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit"
@@ -25,7 +30,16 @@
   "dependencies": {
     "ai-functions": "workspace:*"
   },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
   "devDependencies": {
+    "@types/react": "^18.0.0",
     "@types/node": "^20.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0",

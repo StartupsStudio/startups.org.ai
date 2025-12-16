@@ -2,8 +2,28 @@ packages:
   # Apps
   - 'apps/*'
 
-  # Core packages (excluding submodules which have their own workspaces)
+  # Core packages (non-submodule)
   - 'packages/design-sprint'
+  - 'packages/experimentation-machine'
+  - 'packages/foundation-sprint'
+  - 'packages/ideal-customer-profile'
+  - 'packages/jobs-to-be-done'
+  - 'packages/landing-page'
+  - 'packages/lean-canvas'
+  - 'packages/product-names'
+  - 'packages/startup-names'
+  - 'packages/startup-school'
+  - 'packages/storybrand'
+
+  # Package submodules
+  - 'packages/startup-builder'
+  - 'packages/sales-builder'
+  - 'packages/service-builder'
+  - 'packages/builder.domains'
+  - 'packages/startup.games'
+  - 'packages/startups.org.ai'
+  - 'packages/primitives.org.ai'
+  - 'packages/business.org.ai'
 
   # Primitives (submodule)
   - 'primitives/packages/*'

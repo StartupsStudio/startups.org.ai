@@ -1,0 +1,212 @@
+---
+title: Platform-as-a-Service (PaaS)
+description: Managed platforms that abstract infrastructure complexity for developers
+---
+
+# Platform-as-a-Service (PaaS)
+
+Platform-as-a-Service sits between raw infrastructure (IaaS) and finished applications (SaaS). PaaS providers manage the runtime environment, allowing developers to focus on code rather than servers.
+
+## Overview
+
+PaaS abstracts away infrastructure management:
+
+- **Runtime Environments**: Node.js, Python, Go, Ruby, Java, etc.
+- **Managed Databases**: PostgreSQL, MySQL, Redis, MongoDB
+- **Build & Deploy**: CI/CD pipelines, preview environments, rollbacks
+- **Scaling**: Auto-scaling, load balancing, edge deployment
+- **Observability**: Logs, metrics, tracing, alerts
+
+### Key Characteristics
+
+| Characteristic | Description |
+|----------------|-------------|
+| **Pricing Model** | Resource-based or usage-based (requests, bandwidth, compute) |
+| **Capital Intensity** | Medium - built on top of IaaS providers |
+| **Margins** | 40-60% gross margins |
+| **Moat** | Developer experience, ecosystem, workflow integration |
+| **Sales Motion** | Product-led growth, developer advocacy |
+
+## Market Examples
+
+### General Purpose
+- **Heroku** - Pioneer of modern PaaS, acquired by Salesforce
+- **Vercel** - Frontend/Jamstack focus, Next.js creators
+- **Railway** - Modern Heroku alternative
+- **Render** - Full-stack PaaS with managed services
+- **Fly.io** - Edge-native platform
+
+### Serverless/Functions
+- **AWS Lambda** - Original serverless compute
+- **Cloudflare Workers** - Edge-native serverless
+- **Netlify** - Jamstack and serverless functions
+- **Deno Deploy** - TypeScript-first edge functions
+
+### Container Platforms
+- **Google Cloud Run** - Serverless containers
+- **AWS App Runner** - Simplified container deployment
+- **Azure Container Apps** - Kubernetes-based PaaS
+
+### Specialized
+- **Supabase** - Open source Firebase alternative
+- **PlanetScale** - Serverless MySQL (Vitess-based)
+- **Neon** - Serverless Postgres
+- **Upstash** - Serverless Redis/Kafka
+
+## Economics
+
+### Unit Economics
+```
+Revenue = (Base Platform Fee) + (Compute Usage) + (Add-on Services)
+
+Key Metrics:
+- Monthly Recurring Revenue (MRR)
+- Net Revenue Retention (NRR) - target: >120%
+- Gross margin
+- CAC payback period
+- Expansion revenue %
+```
+
+### Cost Structure
+- **Infrastructure**: IaaS costs (AWS/GCP/Azure)
+- **Engineering**: Platform development, reliability
+- **Support**: Developer success, documentation
+- **Sales**: Often minimal - product-led growth
+
+## Lean Canvas: Developer Platform
+
+<LeanCanvas
+  data={{
+    name: "ShipFast",
+    tagline: "Deploy any app in seconds, scale to millions",
+    problem: {
+      problems: [
+        "DevOps complexity slows down shipping",
+        "Managing infrastructure distracts from product work",
+        "Scaling requires specialized knowledge teams don't have"
+      ],
+      existingAlternatives: [
+        "Hire DevOps engineers",
+        "DIY on AWS/GCP (complex, time-consuming)",
+        "Heroku (expensive at scale, limited)"
+      ]
+    },
+    solution: {
+      solutions: [
+        "Git-push deployment with zero configuration",
+        "Managed databases, caches, and queues",
+        "Automatic scaling from 0 to millions of requests"
+      ]
+    },
+    keyMetrics: {
+      metrics: [
+        "Weekly active developers",
+        "Deployments per day",
+        "Time to first deployment",
+        "Net revenue retention"
+      ]
+    },
+    uniqueValueProposition: {
+      headline: "Ship faster. Scale automatically. Sleep well.",
+      highLevelConcept: "Heroku simplicity with AWS scale"
+    },
+    unfairAdvantage: {
+      advantage: "Framework partnerships for native integrations"
+    },
+    customerSegments: {
+      segments: [
+        "Startups (seed to Series B)",
+        "Internal tools teams at enterprises",
+        "Agencies building client projects"
+      ],
+      earlyAdopters: [
+        "Solo developers building side projects",
+        "Startup CTOs who hate DevOps"
+      ]
+    },
+    channels: {
+      channels: [
+        "Developer content (tutorials, templates)",
+        "GitHub/GitLab marketplace integrations",
+        "Developer conferences and meetups",
+        "Twitter/X and developer communities"
+      ]
+    },
+    costStructure: {
+      costs: [
+        "Cloud infrastructure (AWS/GCP)",
+        "Engineering team",
+        "Developer advocacy and marketing",
+        "Support and documentation"
+      ]
+    },
+    revenueStreams: {
+      streams: [
+        "Usage-based compute pricing",
+        "Managed service add-ons",
+        "Team/collaboration features",
+        "Enterprise tier with SLAs and support"
+      ]
+    }
+  }}
+/>
+
+## Building a PaaS Startup
+
+### When PaaS Makes Sense
+- You can create dramatically better developer experience
+- There's a specific workload underserved by general PaaS
+- You have deep expertise in a runtime/framework
+- You can leverage emerging infrastructure (edge, serverless)
+
+### Challenges
+- **IaaS dependency**: Your margins are bounded by cloud costs
+- **Build vs. buy**: Developers often prefer flexibility over convenience
+- **Scale economics**: Small deployments have negative unit economics
+- **Enterprise requirements**: SOC 2, HIPAA, dedicated infrastructure needs
+
+### Success Patterns
+
+1. **Own a framework**: Vercel + Next.js, Deno + Fresh
+2. **Specialize in a workload**: AI inference, real-time, data pipelines
+3. **Developer experience obsession**: First deploy in under 5 minutes
+4. **Transparent pricing**: Simple, predictable, no surprises
+5. **Community building**: Open source components, templates, tutorials
+
+## PaaS Pricing Models
+
+### Usage-Based
+```
+Compute: $0.0001 per request
+Bandwidth: $0.10 per GB
+Database: $0.25 per million row reads
+```
+
+### Tiered
+```
+Hobby: Free (limited resources)
+Pro: $20/month per user
+Team: $50/month per user
+Enterprise: Custom pricing
+```
+
+### Hybrid
+```
+Base fee + usage overages
+Reserved capacity discounts
+```
+
+## The Platform Ecosystem
+
+Successful PaaS companies build ecosystems:
+
+- **Templates**: Pre-built starting points
+- **Integrations**: Connect to other services
+- **Marketplace**: Third-party add-ons
+- **Community**: Forums, Discord, content
+
+## Further Reading
+
+- [The PaaS Playbook](https://www.enterpriseready.io)
+- [Developer Experience as a Competitive Advantage](https://dx.tips)
+- [Platform-as-a-Service Market Analysis](https://www.gartner.com)

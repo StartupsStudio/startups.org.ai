@@ -1,0 +1,283 @@
+---
+title: Software-as-a-Service (SaaS)
+description: Cloud-delivered applications with subscription-based business models
+---
+
+# Software-as-a-Service (SaaS)
+
+Software-as-a-Service is the dominant model for delivering business software. SaaS companies build applications that run in the cloud, accessed via browser or API, and charge recurring subscription fees.
+
+## Overview
+
+SaaS delivers complete applications:
+
+- **Application Layer**: User interfaces, workflows, features
+- **Business Logic**: Rules, automation, integrations
+- **Data Storage**: Customer data managed by the provider
+- **Updates**: Continuous delivery of new features
+- **Support**: Customer success, training, documentation
+
+### Key Characteristics
+
+| Characteristic | Description |
+|----------------|-------------|
+| **Pricing Model** | Per-seat, per-usage, or tiered subscriptions |
+| **Capital Intensity** | Low-medium - mostly engineering and go-to-market |
+| **Margins** | 70-85% gross margins |
+| **Moat** | Workflow integration, data lock-in, network effects |
+| **Sales Motion** | PLG (product-led) or sales-led, depending on ACV |
+
+## Market Examples
+
+### Horizontal SaaS (Any Industry)
+- **Salesforce** - CRM pioneer
+- **Slack** - Team communication
+- **Notion** - Collaborative workspace
+- **Figma** - Design collaboration
+- **Zoom** - Video conferencing
+
+### Vertical SaaS (Industry-Specific)
+- **Veeva** - Life sciences CRM
+- **Procore** - Construction management
+- **Toast** - Restaurant POS
+- **ServiceTitan** - Home services
+- **Shopify** - E-commerce
+
+### SMB SaaS
+- **Gusto** - Payroll and HR
+- **Calendly** - Scheduling
+- **Mailchimp** - Email marketing
+- **QuickBooks Online** - Accounting
+
+### Enterprise SaaS
+- **Workday** - HR and finance
+- **ServiceNow** - IT service management
+- **Snowflake** - Data cloud
+- **Datadog** - Observability
+
+## Economics
+
+### The SaaS Metrics Stack
+
+```
+Annual Recurring Revenue (ARR)
+├── New ARR (new customers)
+├── Expansion ARR (upsells, cross-sells)
+├── Contraction ARR (downgrades)
+└── Churned ARR (lost customers)
+
+Net Revenue Retention (NRR) = (Starting ARR + Expansion - Contraction - Churn) / Starting ARR
+```
+
+### Key Metrics
+
+| Metric | Good | Great | Elite |
+|--------|------|-------|-------|
+| **Gross Margin** | >70% | >80% | >85% |
+| **NRR** | >100% | >120% | >130% |
+| **CAC Payback** | <24mo | <18mo | <12mo |
+| **LTV:CAC** | >3:1 | >5:1 | >7:1 |
+| **Magic Number** | >0.5 | >0.75 | >1.0 |
+
+### Rule of 40
+```
+Growth Rate + Profit Margin ≥ 40%
+
+Examples:
+- 50% growth + -10% margin = 40% ✓
+- 30% growth + 15% margin = 45% ✓
+- 20% growth + 10% margin = 30% ✗
+```
+
+## Lean Canvas: Team Collaboration SaaS
+
+<LeanCanvas
+  data={{
+    name: "TeamSync",
+    tagline: "One workspace for all your team's work",
+    problem: {
+      problems: [
+        "Work scattered across 10+ different tools",
+        "Context switching kills productivity",
+        "Difficult to see project status across team"
+      ],
+      existingAlternatives: [
+        "Tool sprawl (Slack + Asana + Notion + Google Docs)",
+        "Email threads and meetings",
+        "Spreadsheets for project tracking"
+      ]
+    },
+    solution: {
+      solutions: [
+        "Unified workspace combining docs, tasks, and chat",
+        "Automatic project status views from work activity",
+        "AI-powered work summaries and next actions"
+      ]
+    },
+    keyMetrics: {
+      metrics: [
+        "Daily active users (DAU)",
+        "Weekly team engagement rate",
+        "Net promoter score (NPS)",
+        "Net revenue retention (NRR)"
+      ]
+    },
+    uniqueValueProposition: {
+      headline: "Replace 5 tools with one workspace your team actually uses",
+      highLevelConcept: "Notion meets Slack meets Linear"
+    },
+    unfairAdvantage: {
+      advantage: "Network effects from team collaboration + proprietary AI models"
+    },
+    customerSegments: {
+      segments: [
+        "Remote-first startups (20-200 employees)",
+        "Product and engineering teams",
+        "Creative agencies"
+      ],
+      earlyAdopters: [
+        "Engineering managers building remote teams",
+        "Startup founders tired of tool sprawl"
+      ]
+    },
+    channels: {
+      channels: [
+        "Product-led growth (free tier viral loops)",
+        "Content marketing (productivity, remote work)",
+        "Community building",
+        "Integration marketplace"
+      ]
+    },
+    costStructure: {
+      costs: [
+        "Engineering and product",
+        "Cloud infrastructure",
+        "Customer success",
+        "Sales (enterprise)",
+        "Marketing"
+      ]
+    },
+    revenueStreams: {
+      streams: [
+        "Free tier (up to 10 users)",
+        "Pro tier ($12/user/month)",
+        "Business tier ($20/user/month)",
+        "Enterprise (custom pricing)"
+      ]
+    }
+  }}
+/>
+
+## Building a SaaS Startup
+
+### When SaaS Makes Sense
+- There's a recurring workflow you can improve 10x
+- Customers will pay monthly/annually for value delivered
+- You can achieve product-market fit before running out of capital
+- The market is large enough to support multiple players
+
+### Challenges
+- **Competition**: SaaS markets tend toward winner-take-most dynamics
+- **Distribution**: CAC is rising across most channels
+- **Retention**: Churn compounds negatively over time
+- **Feature parity**: Competitors copy features quickly
+
+### Success Patterns
+
+1. **Product-led growth**: Build virality and self-serve into the product
+2. **Vertical focus**: Own a specific industry or use case
+3. **Platform/ecosystem**: Build integrations and marketplace
+4. **Customer success obsession**: Churn is the silent killer
+5. **Land and expand**: Small entry, grow within accounts
+
+## SaaS Pricing Models
+
+### Per-Seat
+```
+Most common for collaboration tools
+Pro: Simple, predictable
+Con: Creates friction for adoption
+```
+
+### Usage-Based
+```
+Charge for consumption (API calls, data processed, messages sent)
+Pro: Aligns cost with value
+Con: Revenue volatility
+```
+
+### Tiered
+```
+Free → Pro → Business → Enterprise
+Pro: Captures different willingness to pay
+Con: Feature allocation decisions are hard
+```
+
+### Flat-Rate
+```
+Single price for unlimited use
+Pro: Simple to understand
+Con: Leaves money on table
+```
+
+## The SaaS Growth Playbook
+
+### Stage 1: Product-Market Fit
+- Find 10 customers who love you
+- Manual onboarding and support
+- Talk to users constantly
+- Focus on retention over growth
+
+### Stage 2: Go-to-Market Fit
+- Repeatable sales motion
+- Predictable unit economics
+- Clear ICP definition
+- Scalable acquisition channels
+
+### Stage 3: Scale
+- Expand team and operations
+- Multi-product or platform strategy
+- International expansion
+- Enterprise motion
+
+## Product-Led Growth (PLG)
+
+PLG is the dominant modern SaaS motion:
+
+```
+Free/Trial Users
+     ↓
+Activation (first value moment)
+     ↓
+Engagement (habit formation)
+     ↓
+Conversion (paid upgrade)
+     ↓
+Expansion (add seats, upgrade tier)
+     ↓
+Referral (invite teammates)
+```
+
+### PLG Metrics
+- **Activation rate**: % who reach first value
+- **Free-to-paid conversion**: ~3-5% typical
+- **Time to value**: How quickly users succeed
+- **Viral coefficient**: Referrals per user
+
+## SaaS vs. Enterprise Software
+
+| Aspect | Traditional | SaaS |
+|--------|-------------|------|
+| Deployment | On-premise | Cloud |
+| Pricing | Perpetual license | Subscription |
+| Updates | Major releases | Continuous |
+| Sales cycle | 6-18 months | 0-6 months |
+| Revenue recognition | Upfront | Ratably |
+| Customer relationship | Transactional | Ongoing |
+
+## Further Reading
+
+- [SaaS Metrics 2.0](https://www.forentrepreneurs.com/saas-metrics-2/)
+- [The SaaS CFO](https://www.thesaascfo.com)
+- [OpenView PLG Resources](https://openviewpartners.com/product-led-growth)
+- [Bessemer Cloud Index](https://www.bvp.com/cloud)

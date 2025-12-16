@@ -1,0 +1,247 @@
+---
+title: Data-as-a-Service (DaaS)
+description: Monetizing data access through APIs and managed data products
+---
+
+# Data-as-a-Service (DaaS)
+
+Data-as-a-Service businesses monetize access to data through APIs, feeds, or managed data products. DaaS companies aggregate, clean, enrich, or generate data that customers need but cannot efficiently produce themselves.
+
+## Overview
+
+DaaS encompasses several models:
+
+- **Data Aggregation**: Collecting and normalizing data from multiple sources
+- **Data Enrichment**: Adding value to existing data (e.g., company info from email)
+- **Data Generation**: Creating original datasets through collection or synthesis
+- **Data APIs**: Programmatic access to real-time or reference data
+- **Data Marketplaces**: Platforms for buying/selling datasets
+
+### Key Characteristics
+
+| Characteristic | Description |
+|----------------|-------------|
+| **Pricing Model** | API calls, records accessed, subscription tiers |
+| **Capital Intensity** | Medium - data acquisition, processing infrastructure |
+| **Margins** | 60-80% gross margins (after data acquisition) |
+| **Moat** | Data exclusivity, network effects, integration depth |
+| **Sales Motion** | Developer-first or enterprise sales, depending on data type |
+
+## Market Examples
+
+### Business Data
+- **Clearbit** - B2B company and contact enrichment
+- **ZoomInfo** - Sales intelligence platform
+- **Dun & Bradstreet** - Business credit and company data
+- **Crunchbase** - Startup and venture capital data
+- **PitchBook** - Private market financial data
+
+### Financial Data
+- **Bloomberg** - Financial data terminals and APIs
+- **Refinitiv** - Market data and analytics
+- **Plaid** - Bank account connectivity
+- **Stripe** - Payment data and infrastructure
+- **Alpha Vantage** - Stock market APIs
+
+### Location & Maps
+- **Mapbox** - Maps and location APIs
+- **Foursquare** - Location intelligence
+- **SafeGraph** - Foot traffic and POI data
+- **HERE Technologies** - Mapping and location services
+
+### Communication APIs
+- **Twilio** - SMS, voice, video APIs
+- **SendGrid** - Email delivery
+- **Mailgun** - Transactional email
+- **MessageBird** - Omnichannel communication
+
+### Identity & Verification
+- **Persona** - Identity verification
+- **Socure** - Identity verification for fraud
+- **Truework** - Employment verification
+- **Ekata** - Identity data network
+
+## Economics
+
+### Unit Economics
+```
+Revenue = Σ (API Calls × Price per Call) + Subscription Fees
+
+Key Metrics:
+- API call volume and growth
+- Revenue per API call
+- Data freshness/accuracy metrics
+- Customer integration depth
+- Net revenue retention
+```
+
+### Cost Structure
+- **Data acquisition**: Licensing, scraping, partnerships, user contributions
+- **Infrastructure**: Storage, compute, API serving
+- **Data quality**: Cleaning, validation, enrichment
+- **Compliance**: Privacy, data rights, security
+
+## Lean Canvas: B2B Data Enrichment
+
+<LeanCanvas
+  data={{
+    name: "DataEnrich",
+    tagline: "Turn email addresses into complete company profiles",
+    problem: {
+      problems: [
+        "Sales teams waste time researching prospects manually",
+        "CRM data decays 30% annually without enrichment",
+        "Marketing campaigns suffer from incomplete lead data"
+      ],
+      existingAlternatives: [
+        "Manual research on LinkedIn/company websites",
+        "Clearbit (expensive for SMBs)",
+        "Buying static lists (quickly outdated)"
+      ]
+    },
+    solution: {
+      solutions: [
+        "Real-time company enrichment from email domain",
+        "CRM integrations that auto-update contact records",
+        "Bulk enrichment API for marketing databases"
+      ]
+    },
+    keyMetrics: {
+      metrics: [
+        "API calls per month",
+        "Match rate (% of lookups that return data)",
+        "Data accuracy score",
+        "Net revenue retention"
+      ]
+    },
+    uniqueValueProposition: {
+      headline: "Know your prospects before they know you",
+      highLevelConcept: "Clearbit for SMB sales teams"
+    },
+    unfairAdvantage: {
+      advantage: "Proprietary web crawling + user-contributed data flywheel"
+    },
+    customerSegments: {
+      segments: [
+        "SMB sales teams (10-200 employees)",
+        "Marketing operations managers",
+        "RevOps teams at growing companies"
+      ],
+      earlyAdopters: [
+        "SDR managers frustrated with manual research",
+        "Marketing ops leads cleaning CRM data"
+      ]
+    },
+    channels: {
+      channels: [
+        "Salesforce AppExchange",
+        "HubSpot Marketplace",
+        "Content marketing (sales productivity)",
+        "Sales tool review sites"
+      ]
+    },
+    costStructure: {
+      costs: [
+        "Data acquisition and licensing",
+        "Web crawling infrastructure",
+        "API and database hosting",
+        "Engineering team",
+        "Data quality and ops"
+      ]
+    },
+    revenueStreams: {
+      streams: [
+        "Monthly subscription by enrichment volume",
+        "Pay-per-lookup pricing",
+        "Enterprise annual contracts",
+        "CRM integration premium tiers"
+      ]
+    }
+  }}
+/>
+
+## Building a DaaS Startup
+
+### When DaaS Makes Sense
+- You have unique access to valuable data
+- You can aggregate data others cannot efficiently gather
+- There's high willingness to pay for data-driven decisions
+- Network effects can make your data better over time
+
+### Challenges
+- **Data moats erode**: Competitors can often acquire similar data
+- **Privacy regulations**: GDPR, CCPA create compliance overhead
+- **Quality maintenance**: Data requires constant updates and validation
+- **Customer concentration**: Large customers often have negotiating power
+
+### Success Patterns
+
+1. **Data network effects**: More customers = better data (Plaid model)
+2. **Integration depth**: Become embedded in customer workflows
+3. **Proprietary collection**: Data no one else can access
+4. **Real-time advantage**: Fresh data commands premium pricing
+5. **Compliance as moat**: Build for regulated industries
+
+## DaaS Pricing Models
+
+### API-Based
+```
+Free Tier: 1,000 calls/month
+Growth: $99/month for 10,000 calls
+Scale: $499/month for 100,000 calls
+Enterprise: Custom pricing, volume discounts
+```
+
+### Record-Based
+```
+Pay per enriched record
+Volume discounts at thresholds
+Subscription for unlimited lookups
+```
+
+### Outcome-Based
+```
+Pay for matched/found records only
+Success-fee pricing
+Value-based for high-stakes data
+```
+
+## Data Quality Metrics
+
+Key quality dimensions to track:
+
+| Metric | Description | Target |
+|--------|-------------|--------|
+| **Accuracy** | % of data points that are correct | >95% |
+| **Completeness** | % of fields populated | >80% |
+| **Freshness** | Age of most recent update | <30 days |
+| **Match Rate** | % of queries that return data | >70% |
+| **Consistency** | Data format standardization | >99% |
+
+## The Data Flywheel
+
+Best DaaS businesses create data flywheels:
+
+```
+More Customers
+     ↓
+More Data Usage
+     ↓
+Better Data Quality
+     ↓
+Higher Value to Customers
+     ↓
+More Customers
+```
+
+### Building the Flywheel
+1. **User contributions**: Customers help validate/correct data
+2. **Usage signals**: Query patterns reveal data demand
+3. **Network effects**: Each integration improves the dataset
+4. **Compound enrichment**: Combine multiple data sources
+
+## Further Reading
+
+- [The Data Economy](https://www.mckinsey.com/capabilities/quantumblack/our-insights)
+- [API Business Models](https://www.redhat.com/en/topics/api/api-monetization)
+- [Data Privacy Regulations](https://iapp.org/resources)

@@ -1,0 +1,16 @@
+{
+  "title": "Business Model Types",
+  "pages": [
+    "index",
+    "---Infrastructure---",
+    "iaas",
+    "---Platform---",
+    "paas",
+    "---Data---",
+    "daas",
+    "---Software---",
+    "saas",
+    "---AI-Delivered---",
+    "services-as-software"
+  ]
+}
