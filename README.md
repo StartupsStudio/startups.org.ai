@@ -1,3 +1,12 @@
+> [!NOTE]
+> **Archived / ancestral copy — not the canonical home.**
+> This repository vendors an older Register-A copy of the conceptual primitives
+> (the `primitives` submodule and `packages/primitives.org.ai`). It is preserved as
+> **lineage, not a source of truth**. The one canonical home for these primitives is
+> **[dot-org-ai/primitives.org.ai](https://github.com/dot-org-ai/primitives.org.ai)**,
+> published on npm. Per **ADR 0001 (the four-register constitution)**, the primitives
+> collapse to that single home; do not fork or vendor new copies from this tree.
+
 # startups.org.ai
 
 A monorepo containing AI-powered tools and frameworks for building startups.
